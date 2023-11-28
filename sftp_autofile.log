@@ -1,0 +1,477 @@
+2023-11-28 15:29:40,449 DEBUG : starting thread (client mode): 0xed2a9850
+2023-11-28 15:29:40,450 DEBUG : Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-11-28 15:29:40,465 DEBUG : Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2023-11-28 15:29:40,465 INFO : Connected (version 2.0, client OpenSSH_7.4)
+2023-11-28 15:29:40,480 DEBUG : === Key exchange possibilities ===
+2023-11-28 15:29:40,480 DEBUG : kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1
+2023-11-28 15:29:40,480 DEBUG : server key: ssh-rsa, rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+2023-11-28 15:29:40,480 DEBUG : client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2023-11-28 15:29:40,480 DEBUG : server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2023-11-28 15:29:40,480 DEBUG : client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-11-28 15:29:40,480 DEBUG : server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-11-28 15:29:40,480 DEBUG : client compress: none, zlib@openssh.com
+2023-11-28 15:29:40,480 DEBUG : server compress: none, zlib@openssh.com
+2023-11-28 15:29:40,480 DEBUG : client lang: <none>
+2023-11-28 15:29:40,480 DEBUG : server lang: <none>
+2023-11-28 15:29:40,480 DEBUG : kex follows: False
+2023-11-28 15:29:40,480 DEBUG : === Key exchange agreements ===
+2023-11-28 15:29:40,481 DEBUG : Kex: curve25519-sha256@libssh.org
+2023-11-28 15:29:40,481 DEBUG : HostKey: ssh-ed25519
+2023-11-28 15:29:40,481 DEBUG : Cipher: aes128-ctr
+2023-11-28 15:29:40,481 DEBUG : MAC: hmac-sha2-256
+2023-11-28 15:29:40,481 DEBUG : Compression: none
+2023-11-28 15:29:40,481 DEBUG : === End of kex handshake ===
+2023-11-28 15:29:40,496 DEBUG : kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-11-28 15:29:40,497 DEBUG : Switch to new keys ...
+2023-11-28 15:29:40,498 DEBUG : Got EXT_INFO: {'server-sig-algs': b'rsa-sha2-256,rsa-sha2-512'}
+2023-11-28 15:29:40,499 DEBUG : Adding ssh-ed25519 host key for 10.254.211.111: b'39726db95bce7885164976d819734ae5'
+2023-11-28 15:29:40,571 DEBUG : userauth is OK
+2023-11-28 15:29:40,625 INFO : Auth banner: b'Warning: This Information System is actively monitored.\n  This System may be accessed by authorized users only!\n  Unauthorized actions on this System will be prosecuted.\n'
+2023-11-28 15:29:40,625 INFO : Authentication (password) successful!
+2023-11-28 15:29:40,626 DEBUG : [chan 0] Max packet in: 32768 bytes
+2023-11-28 15:29:40,781 DEBUG : Received global request "hostkeys-00@openssh.com"
+2023-11-28 15:29:40,781 DEBUG : Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-11-28 15:29:40,841 DEBUG : [chan 0] Max packet out: 32768 bytes
+2023-11-28 15:29:40,841 DEBUG : Secsh channel 0 opened.
+2023-11-28 15:29:40,861 DEBUG : [chan 0] Sesch channel 0 request ok
+2023-11-28 15:29:40,871 INFO : [chan 0] Opened sftp connection (server version 3)
+2023-11-28 15:29:40,871 INFO : connect success
+2023-11-28 15:29:40,877 DEBUG : starting thread (client mode): 0xed2aac00
+2023-11-28 15:29:40,877 DEBUG : Local version/idstring: SSH-2.0-paramiko_3.3.1
+2023-11-28 15:29:40,889 DEBUG : Remote version/idstring: SSH-2.0-OpenSSH_7.4
+2023-11-28 15:29:40,889 INFO : Connected (version 2.0, client OpenSSH_7.4)
+2023-11-28 15:29:40,896 DEBUG : === Key exchange possibilities ===
+2023-11-28 15:29:40,896 DEBUG : kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group-exchange-sha1, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1
+2023-11-28 15:29:40,896 DEBUG : server key: ssh-rsa, rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+2023-11-28 15:29:40,896 DEBUG : client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2023-11-28 15:29:40,896 DEBUG : server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com, aes128-cbc, aes192-cbc, aes256-cbc, blowfish-cbc, cast128-cbc, 3des-cbc
+2023-11-28 15:29:40,896 DEBUG : client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-11-28 15:29:40,896 DEBUG : server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-11-28 15:29:40,896 DEBUG : client compress: none, zlib@openssh.com
+2023-11-28 15:29:40,896 DEBUG : server compress: none, zlib@openssh.com
+2023-11-28 15:29:40,896 DEBUG : client lang: <none>
+2023-11-28 15:29:40,896 DEBUG : server lang: <none>
+2023-11-28 15:29:40,898 DEBUG : kex follows: False
+2023-11-28 15:29:40,898 DEBUG : === Key exchange agreements ===
+2023-11-28 15:29:40,898 DEBUG : Kex: curve25519-sha256@libssh.org
+2023-11-28 15:29:40,898 DEBUG : HostKey: ssh-ed25519
+2023-11-28 15:29:40,898 DEBUG : Cipher: aes128-ctr
+2023-11-28 15:29:40,898 DEBUG : MAC: hmac-sha2-256
+2023-11-28 15:29:40,898 DEBUG : Compression: none
+2023-11-28 15:29:40,898 DEBUG : === End of kex handshake ===
+2023-11-28 15:29:40,910 DEBUG : kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-11-28 15:29:40,911 DEBUG : Switch to new keys ...
+2023-11-28 15:29:40,911 DEBUG : Got EXT_INFO: {'server-sig-algs': b'rsa-sha2-256,rsa-sha2-512'}
+2023-11-28 15:29:40,911 DEBUG : Adding ssh-ed25519 host key for 10.254.211.111: b'39726db95bce7885164976d819734ae5'
+2023-11-28 15:29:40,958 DEBUG : userauth is OK
+2023-11-28 15:29:40,985 INFO : Auth banner: b'Warning: This Information System is actively monitored.\n  This System may be accessed by authorized users only!\n  Unauthorized actions on this System will be prosecuted.\n'
+2023-11-28 15:29:40,986 INFO : Authentication (password) successful!
+2023-11-28 15:29:40,986 DEBUG : [chan 0] Max packet in: 32768 bytes
+2023-11-28 15:29:41,116 DEBUG : Received global request "hostkeys-00@openssh.com"
+2023-11-28 15:29:41,117 DEBUG : Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-11-28 15:29:41,162 DEBUG : [chan 0] Max packet out: 32768 bytes
+2023-11-28 15:29:41,163 DEBUG : Secsh channel 0 opened.
+2023-11-28 15:29:41,171 DEBUG : [chan 0] Sesch channel 0 request ok
+2023-11-28 15:29:41,179 INFO : [chan 0] Opened sftp connection (server version 3)
+2023-11-28 15:29:41,181 INFO : connect success
+2023-11-28 15:29:41,181 DEBUG : [chan 0] listdir(b'/home/acs/test/OBS/')
+2023-11-28 15:29:41,696 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309231540.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:41,701 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309231540.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:41,706 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309231540.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:41,711 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309231540.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:42,056 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:42,081 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309252240.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:42,109 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309252240.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:42,120 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309252240.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:42,133 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309252240.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:42,487 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:42,494 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309172110.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:42,506 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309172110.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:42,515 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309172110.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:42,531 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309172110.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:42,897 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:42,920 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309220430.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:42,930 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309220430.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:42,955 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309220430.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:42,961 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309220430.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:43,324 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:43,330 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309211100.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:43,345 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309211100.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:43,350 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309211100.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:43,356 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309211100.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:43,703 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:43,709 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309180900.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:29:43,723 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309180900.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:29:43,730 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309180900.QPESUMS_AUTO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:43,748 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309180900.QPESUMS_AUTO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:44,679 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:44,683 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309181400.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:29:44,690 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309181400.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:29:44,698 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309181400.QPESUMS_AUTO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:44,701 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309181400.QPESUMS_AUTO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:45,651 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:45,653 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309180340.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:45,659 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309180340.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:45,663 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309180340.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:45,666 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309180340.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:46,014 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:46,022 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309140330.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:46,061 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309140330.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:46,069 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309140330.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:46,077 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309140330.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:46,463 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:46,471 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309151750.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:46,482 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309151750.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:46,487 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309151750.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:46,493 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309151750.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:46,831 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:46,837 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309240810.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:46,853 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309240810.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:46,858 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309240810.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:46,862 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309240810.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:47,250 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:47,254 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309131030.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:47,257 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309131030.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:47,260 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309131030.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:47,271 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309131030.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:47,603 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:47,612 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309252040.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:47,620 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309252040.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:47,627 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309252040.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:47,631 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309252040.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:47,964 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:47,970 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309190220.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:47,979 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309190220.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:47,985 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309190220.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:47,999 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309190220.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:48,385 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:48,390 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309242010.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:48,399 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309242010.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:48,403 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309242010.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:48,406 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309242010.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:48,732 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:48,735 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309211900.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:48,740 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309211900.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:48,746 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309211900.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:48,752 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309211900.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:49,082 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:49,085 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309180920.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:49,089 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309180920.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:49,093 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309180920.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:49,098 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309180920.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:49,467 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:49,472 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309192130.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:49,479 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309192130.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:49,483 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309192130.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:49,487 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309192130.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:49,496 INFO : stop....
+2023-11-28 15:29:49,895 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:49,900 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309251330.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:49,906 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309251330.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:49,910 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309251330.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:49,915 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309251330.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:50,295 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:50,303 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309260620.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:50,315 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309260620.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:50,321 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309260620.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:50,327 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309260620.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:50,720 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:50,738 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309261620.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:50,744 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309261620.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:50,749 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309261620.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:50,754 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309261620.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:51,089 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:51,094 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309261650.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:51,102 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309261650.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:51,107 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309261650.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:51,112 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309261650.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:51,485 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:51,492 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309242200.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:29:51,498 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309242200.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:29:51,503 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309242200.QPESUMS_AUTO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:51,512 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309242200.QPESUMS_AUTO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:52,436 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:52,443 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309211810.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:52,450 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309211810.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:52,456 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309211810.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:52,465 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309211810.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:52,850 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:52,856 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309260220.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:52,868 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309260220.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:52,873 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309260220.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:52,881 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309260220.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:53,238 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:53,246 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309130350.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:53,255 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309130350.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:53,261 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309130350.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:53,267 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309130350.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:53,602 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:53,609 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309190930.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:53,619 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309190930.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:53,623 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309190930.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:53,628 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309190930.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:54,008 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:54,016 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309241930.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:54,027 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309241930.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:54,033 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309241930.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:54,049 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309241930.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:54,375 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:54,379 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309240820.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:54,384 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309240820.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:54,388 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309240820.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:54,414 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309240820.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:54,752 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:54,758 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309251620.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:54,764 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309251620.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:54,768 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309251620.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:54,773 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309251620.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:55,146 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:55,149 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309230730.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:55,154 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309230730.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:55,158 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309230730.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:55,161 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309230730.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:55,488 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:55,495 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309201520.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:55,502 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309201520.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:55,506 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309201520.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:55,512 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309201520.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:55,892 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:55,900 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309211340.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:55,906 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309211340.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:55,912 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309211340.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:55,917 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309211340.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:56,242 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:56,245 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309162000.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:29:56,249 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309162000.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:29:56,251 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309162000.QPESUMS_AUTO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:56,254 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309162000.QPESUMS_AUTO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:57,166 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:57,173 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309131720.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:57,183 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309131720.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:57,190 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309131720.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:57,195 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309131720.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:57,561 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:57,568 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309221910.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:57,576 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309221910.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:57,581 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309221910.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:57,584 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309221910.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:57,912 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:57,917 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309170750.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:57,922 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309170750.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:57,925 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309170750.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:57,930 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309170750.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:58,306 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:58,310 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309150510.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:58,318 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309150510.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:58,322 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309150510.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:58,326 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309150510.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:58,664 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:58,671 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309230020.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:58,678 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309230020.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:29:58,683 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309230020.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:58,690 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309230020.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:29:59,024 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:29:59,032 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309170100.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:29:59,040 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309170100.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:29:59,046 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309170100.QPESUMS_AUTO_STATION.10M.xml', 'rb')
+2023-11-28 15:29:59,051 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309170100.QPESUMS_AUTO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:00,010 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:00,017 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309210510.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:00,024 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309210510.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:00,029 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309210510.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:00,033 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309210510.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:00,363 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:00,368 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309162120.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:00,373 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309162120.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:00,377 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309162120.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:00,382 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309162120.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:00,720 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:00,724 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309151820.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:00,729 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309151820.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:00,733 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309151820.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:00,737 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309151820.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:01,103 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:01,107 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309252320.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:01,114 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309252320.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:01,121 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309252320.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:01,126 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309252320.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:01,467 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:01,472 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309250540.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:01,477 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309250540.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:01,504 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309250540.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:01,508 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309250540.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:01,889 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:01,897 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309140140.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:01,903 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309140140.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:01,907 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309140140.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:01,913 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309140140.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:02,245 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:02,251 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309252010.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:02,258 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309252010.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:02,262 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309252010.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:02,266 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309252010.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:02,578 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:02,582 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309242300.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:30:02,588 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309242300.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:30:02,591 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309242300.QPESUMS_AUTO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:02,595 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309242300.QPESUMS_AUTO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:03,504 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:03,508 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309210900.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:30:03,517 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309210900.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:30:03,521 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309210900.QPESUMS_AUTO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:03,525 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309210900.QPESUMS_AUTO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:04,410 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:04,415 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309211710.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:04,420 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309211710.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:04,425 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309211710.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:04,429 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309211710.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:04,792 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:04,799 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309170020.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:04,806 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309170020.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:04,810 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309170020.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:04,814 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309170020.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:05,130 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:05,135 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309231200.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:05,141 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309231200.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:05,144 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309231200.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:05,149 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309231200.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:05,468 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:05,472 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309191620.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:05,476 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309191620.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:05,480 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309191620.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:05,483 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309191620.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:05,849 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:05,854 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309230910.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:05,859 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309230910.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:05,864 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309230910.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:05,868 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309230910.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:06,187 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:06,190 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309170930.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:06,197 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309170930.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:06,203 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309170930.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:06,209 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309170930.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:06,529 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:06,533 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309210410.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:06,536 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309210410.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:06,540 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309210410.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:06,543 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309210410.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:06,889 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:06,895 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309131340.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:06,902 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309131340.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:06,907 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309131340.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:06,911 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309131340.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:07,240 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:07,244 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309172310.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:07,249 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309172310.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:07,253 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309172310.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:07,258 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309172310.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:07,623 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:07,630 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309230610.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:07,642 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309230610.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:07,647 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309230610.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:07,650 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309230610.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:07,991 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:07,995 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309171240.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:08,001 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309171240.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:08,006 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309171240.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:08,011 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309171240.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:08,337 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:08,350 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309130720.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:08,358 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309130720.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:08,364 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309130720.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:08,369 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309130720.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:08,736 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:08,743 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309241310.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:08,753 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309241310.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:08,756 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309241310.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:08,759 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309241310.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:09,103 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:09,109 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309240200.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:30:09,114 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309240200.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:30:09,118 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309240200.QPESUMS_AUTO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:09,121 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309240200.QPESUMS_AUTO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:10,053 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:10,057 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309260600.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:10,062 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309260600.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:10,068 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309260600.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:10,072 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309260600.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:10,432 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:10,437 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309182200.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:10,442 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309182200.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:10,447 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309182200.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:10,451 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309182200.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:10,779 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:10,784 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309150820.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:10,788 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309150820.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:10,791 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309150820.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:10,794 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309150820.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:11,168 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:11,172 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309142120.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:11,180 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309142120.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:11,184 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309142120.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:11,187 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309142120.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:11,541 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:11,546 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309190100.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:30:11,557 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309190100.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:30:11,562 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309190100.QPESUMS_AUTO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:11,567 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309190100.QPESUMS_AUTO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:12,552 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:12,557 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309201120.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:12,562 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309201120.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:12,568 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309201120.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:12,572 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309201120.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:12,928 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:12,933 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309171620.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:12,941 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309171620.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:12,948 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309171620.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:12,954 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309171620.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:13,311 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:13,328 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309141410.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:13,337 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309141410.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:13,358 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309141410.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:13,365 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309141410.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:13,732 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:13,736 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309130000.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:30:13,741 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309130000.QPESUMS_AUTO_STATION.10M.xml')
+2023-11-28 15:30:13,744 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309130000.QPESUMS_AUTO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:13,748 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309130000.QPESUMS_AUTO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:14,664 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:14,668 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309200010.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:14,673 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309200010.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:14,677 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309200010.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:14,681 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309200010.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:15,062 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:15,066 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309230710.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:15,074 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309230710.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:15,078 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309230710.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:15,081 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309230710.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:15,421 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:15,432 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309160020.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:15,446 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309160020.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:15,451 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309160020.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:15,457 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309160020.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:15,791 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:15,795 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309190540.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:15,799 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309190540.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:15,803 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309190540.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:15,807 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309190540.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:16,181 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:16,186 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309191150.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:16,195 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309191150.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:16,200 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309191150.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:16,204 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309191150.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:16,537 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:16,540 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309260210.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:16,552 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309260210.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:16,556 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309260210.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:16,559 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309260210.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:16,947 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:16,955 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309191330.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:16,963 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309191330.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:16,968 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309191330.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:16,972 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309191330.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
+2023-11-28 15:30:17,312 DEBUG : [chan 0] close(00000000)
+2023-11-28 15:30:17,317 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309220440.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:17,320 DEBUG : [chan 0] stat(b'/home/acs/test/OBS/202309220440.QPESUMS_METRO_STATION.10M.xml')
+2023-11-28 15:30:17,324 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309220440.QPESUMS_METRO_STATION.10M.xml', 'rb')
+2023-11-28 15:30:17,328 DEBUG : [chan 0] open(b'/home/acs/test/OBS/202309220440.QPESUMS_METRO_STATION.10M.xml', 'rb') -> 00000000
